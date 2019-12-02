@@ -1,1 +1,23 @@
-<p>quiz works!</p>
+<h2 class="quizDescription">
+<u>Hosfetede's Cultural Quiz</u>
+</h2>
+
+<p class="quizDescription">
+  This quiz will measure a person's culture based on a well known model by 
+  <a href="https://en.wikipedia.org/wiki/Geert_Hofstede">Geert Hofstede</a>.
+</p>
+
+<button id="beginQuizBtn" (click) = "beginQuiz($event)">
+Begin Quiz
+</button>
+
+<h2 id="question"></h2>
+<!-- The Question Submission Form -->
+<form [formGroup]="formdata" id="questionForm" (ngSubmit) = "onClickSubmit(formdata.value)">
+  <input type="radio"> Strongly Agree <br />
+  <input type="radio"> Agree <br />
+  <input type="radio"> Unsure/Neutral <br />
+  <input type="radio"> Disagree <br />
+  <input type="radio"> Strongly Disagree <br />
+  <input type="submit" value="OK">
+</form>
