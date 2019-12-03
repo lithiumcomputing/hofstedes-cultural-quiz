@@ -1,3 +1,16 @@
 #questionForm {
   visibility: hidden;
 }
+
+#question {
+  text-align: center;
+}
+
+.quizDescription {
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+}

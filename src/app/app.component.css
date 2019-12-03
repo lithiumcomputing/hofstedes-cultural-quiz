@@ -60,7 +60,8 @@ p.question {
 h1 {
     color: #222222;
     font-family: 'Montserrat', sans-serif;
-    font-size: 72pt;
+    font-size: 44pt;
+    font-weight: bold;
     text-align: center;
     line-height: 72pt;
     margin-top: 0pt;
