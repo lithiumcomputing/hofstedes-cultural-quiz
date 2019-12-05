@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ResultsComponent } from './results/results.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     QuizComponent,
-    RoutingComponent
+    RoutingComponent,
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
