@@ -53,7 +53,7 @@ export class QuizComponent implements OnInit {
     this.questionIndex += 1;
     
     if (this.questionIndex >= this.questions.length) {
-      window.location.href = "http://localhost:4200/results?idv=" +
+      window.location.href = "/results?idv=" +
       this.quizScore["idv"] + "&pdi=" + this.quizScore["pdi"] +
       "&mas=" + this.quizScore["mas"] + "&uai=" + this.quizScore["uai"];    
     }
