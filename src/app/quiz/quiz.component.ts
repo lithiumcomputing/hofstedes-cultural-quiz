@@ -12,7 +12,7 @@ export class QuizComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.formdata = new FormGroup({ })
+    
   }
 
   // Quiz Variables
@@ -29,19 +29,19 @@ export class QuizComponent implements OnInit {
     // Clear Quiz Descriptions
     let quizDescriptions = document.getElementsByClassName("quizDescription");
     for (let index = 0;index < quizDescriptions.length;index += 1) {
-      let element = quizDescriptions[index];
+      var element = quizDescriptions[index];
       element.innerHTML = "";
-      element.style.visibility = "hidden";
+      (element as HTMLElement).style.display = "none";
     }
     let beginQuizButton = document.getElementById("beginQuizBtn");
-    beginQuizButton.style.visibility = "hidden";
+    beginQuizButton.style.display = "none";
     
     // Set up the first question + Form
     this.questionIndex = 0;
     let questionElement = document.getElementById("question");
     questionElement.innerHTML = 
       this.questions[this.questionIndex]["question"];
-    document.getElementById("questionForm").style.visibility = "visible";
+    document.getElementById("questionForm").style.display = "block";
   }
 
   submitResponse(scoreFactor) {

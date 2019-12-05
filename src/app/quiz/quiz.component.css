@@ -1,5 +1,5 @@
 #questionForm {
-  visibility: hidden;
+  display: none;
 }
 
 #question {
