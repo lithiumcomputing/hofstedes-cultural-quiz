@@ -6,3 +6,8 @@
 #mas-label {
   font-size: 18px;
 }
+
+.score-value-label {
+  font-size: 24px;
+  margin-left: 10px;
+}

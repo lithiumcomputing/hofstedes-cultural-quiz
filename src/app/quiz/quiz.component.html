@@ -7,19 +7,24 @@
   <a href="https://en.wikipedia.org/wiki/Geert_Hofstede">Geert Hofstede</a>.
 </p>
 
-<button id="beginQuizBtn" (click) = "beginQuiz($event)"
-class="btn btn-secondary">
-Begin Quiz
-</button>
+<div class="spaced-btn">
+  <button id="beginQuizBtn" (click) = "beginQuiz($event)"
+  class="btn btn-secondary">
+  Begin Quiz
+  </button>
+</div>
 
 <h2 id="question"></h2>
 <!-- The Question Submission Form -->
 <div id="questionForm">
-  <button class="btn btn-danger" (click)="submitResponse(-2)">Strongly Disagree</button> <br />
-  <button class="btn btn-warning" (click)="submitResponse(-1)">Disagree</button> <br />
-  <button class="btn btn-secondary" (click)="submitResponse(0)">Neutral/Unsure</button> <br />
-  <button class="btn btn-info" (click)="submitResponse(1)">Agree</button> <br />
-  <button class="btn btn-success" (click)="submitResponse(2)">Strongly Agree</button>
+  <div class="spaced-btn">
+    <button class="btn btn-danger" (click)="submitResponse(-1.0)">Strongly Disagree</button> <br />
+    <button class="btn btn-warning" (click)="submitResponse(-0.5)">Disagree</button>
+    <br />
+    <button class="btn btn-secondary" (click)="submitResponse(0)">Neutral/Unsure</button> <br />
+    <button class="btn btn-info" (click)="submitResponse(0.5)">Agree</button> <br />
+    <button class="btn btn-success" (click)="submitResponse(1)">Strongly Agree</button>
+  </div>
 </div>
 
 <p id="results"></p>
