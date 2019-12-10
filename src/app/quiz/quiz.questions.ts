@@ -1,6 +1,6 @@
 export class Questions {
   static questions = [
-    // IDV and PDI Questions
+    // IDV Questions
     {
       'question': 'People should care for the interests of society.',
       'idv': -5,
@@ -16,6 +16,66 @@ export class Questions {
       'mas': 0,
     },
     {
+      'question': 'The group\'s opinion matters more than what individuals ' +
+      'want.',
+      'idv': -5,
+      'pdi': 0,
+      'uai': 0,
+      'mas': 0,
+    },
+    {
+      'question': 'Students should learn how to listen humbly ' + 
+      'to their teachers.',
+      'idv': -5,
+      'pdi': 0,
+      'uai': 0,
+      'mas': 0,
+    },
+    {
+      'question': 'Parents do not necessarily have the best ' +
+      'interest of their child.',
+      'idv': 5,
+      'pdi': 0,
+      'uai': 0,
+      'mas': 0,
+    }, // 5
+    {
+      'question': 'Selfishness/Egoism is a poisonous evil to society.',
+      'idv': -5,
+      'pdi': 0,
+      'uai': 0,
+      'mas': 0,
+    },
+    {
+      'question': 'Relatives should be given preference in hiring decisions.',
+      'idv': -5,
+      'pdi': 0,
+      'uai': 0,
+      'mas': 0,
+    },
+    {
+      'question': 'People should care for the interests of society.',
+      'idv': -5,
+      'pdi': 0,
+      'uai': 0,
+      'mas': 0,
+    },
+    {
+      'question': 'Disability is a barrier to overcome.',
+      'idv': 5,
+      'pdi': 0,
+      'uai': 0,
+      'mas': 0,
+    },
+    {
+      'question': 'Children should maintain lifelong contacts with family.',
+      'idv': -5,
+      'pdi': 0,
+      'uai': 0,
+      'mas': 0,
+    }, // 10
+    // PDI Questions
+    {
       'question': 'Everyone has a place in society.',
       'idv': 0,
       'pdi': 5,
@@ -23,15 +83,24 @@ export class Questions {
       'mas': 0,
     },
     {
-      'question': 'Social influence is a significant factor in hiring decisions.',
+      'question': 'Social influence is a significant ' + 
+      'factor in hiring decisions.',
       'idv': 0,
       'pdi': 5,
       'uai': 0,
       'mas': 0,
     },
+    {
+      'question': 'People should care for the interests of society.',
+      'idv': -5,
+      'pdi': 0,
+      'uai': 0,
+      'mas': 0,
+    }
     // MAS Questions
     {
-      'question': 'Money, power, and achievement are more important than being kind and caring.',
+      'question': 'Money, power, and achievement are more important' +
+      'than being kind and caring.',
       'idv': 0,
       'pdi': 0,
       'uai': 0,
