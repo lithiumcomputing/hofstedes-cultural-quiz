@@ -17,6 +17,7 @@ export class QuizComponent implements OnInit {
 
   // Quiz Variables
   questions = Questions.questions
+  numOfQuestions = this.questions.length
   questionIndex = 0
   quizScore = {
     "idv": 0,
@@ -39,7 +40,7 @@ export class QuizComponent implements OnInit {
     // Set up the first question + Form
     this.questionIndex = 0;
     let questionElement = document.getElementById("question");
-    questionElement.innerHTML = 
+    questionElement.innerHTML = "1. " +
       this.questions[this.questionIndex]["question"];
     document.getElementById("questionForm").style.display = "block";
   }
@@ -60,8 +61,8 @@ export class QuizComponent implements OnInit {
     
     else {
       let questionElement = document.getElementById("question");
-      questionElement.innerHTML = 
-      this.questions[this.questionIndex]["question"];
+      questionElement.innerHTML = String(this.questionIndex+1) + ". " +
+        this.questions[this.questionIndex]["question"];
     }
   }
 }
