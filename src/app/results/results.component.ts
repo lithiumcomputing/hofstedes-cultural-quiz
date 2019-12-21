@@ -35,6 +35,10 @@ export class ResultsComponent implements OnInit {
       "uai": 50+50*(results["uai"]/totalScores["uai"])
     }
     
+    for (var key in quizScores) {
+      quizScores[key] = quizScores[key].toFixed(0);
+    }
+
     // Adjust the Graphs so that the results match.
     document.getElementById("idv-bar").innerHTML +=
       '<rect id="idv-score-bar" width="'

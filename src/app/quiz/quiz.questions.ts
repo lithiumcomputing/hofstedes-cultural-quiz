@@ -85,7 +85,7 @@ export class Questions {
     },
     {
       'question': 'Social influence is a significant ' + 
-      'factor in hiring decisions.',
+                  'factor in hiring decisions.',
       'idv': 0,
       'pdi': 5,
       'uai': 0,
@@ -122,7 +122,7 @@ export class Questions {
       'mas': 2,
     },
     {
-      'question': 'Corruption is caused by concentrated ' +
+      'question': 'Corruption occurs when there is concentrated ' +
                   'power at the hands of the few.',
       'idv': 0,
       'pdi': -5,
@@ -222,7 +222,7 @@ export class Questions {
       'mas': -5,
     },
     {
-      'question': 'We should discourage women from studying STEM.' + 
+      'question': 'We should discourage women from studying STEM. ' + 
                   '(Science, Technology, Engineering, Mathematics)',
       'idv': 0,
       'pdi': 0,
@@ -292,8 +292,8 @@ export class Questions {
       'mas': 0,
     },
     {
-      'question': 'People who deviate from the norms significantly ' +
-                  'and negatively disturbs the surrounding social ' +
+      'question': 'People who deviate from the norms ' +
+                  'negatively disturb the surrounding social ' +
                   'environment.',
       'idv': 0,
       'pdi': 0,
