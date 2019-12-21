@@ -6,7 +6,7 @@ COPY . /usr/src
 RUN apk update && \
     apk add nodejs npm && \
     npm install && \
-    chmod +x ./bootstrap.sh && ls
+    chmod +x ./bootstrap.sh
 
 EXPOSE 8000
 CMD /usr/src/bootstrap.sh
